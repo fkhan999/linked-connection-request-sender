@@ -1,0 +1,40 @@
+{
+  "manifest_version":3,
+  "version":"1.0",
+  "name":"Linked connect request sender",
+  "description":"This extension will send connect request on linked search page when enabled",
+  "content_scripts":[
+    {
+     "matches":["https://www.linkedin.com/search/results/people/*"],
+     "js":["main.js"]
+    }
+  
+  ],
+  "background":{
+	  "service_worker":"background.js"
+  },
+   "action": {
+	   "default_title": "Linked connect request sender",
+	   "default_icon":{
+		   "16":"images/icons/icon16.png",
+		   "19":"images/icons/icon19.png",
+		   "32":"images/icons/icon32.png",
+		   "48": "images/icons/icon48.png",
+		   "64":"images/icons/icon64.png",
+		   "96": "images/icons/icon96.png",
+		   "128": "images/icons/icon128.png"
+	   }
+	
+   },
+  "icons": {
+		   "16":"images/icons/icon16.png",
+		   "19":"images/icons/icon19.png",
+		   "32":"images/icons/icon32.png",
+		   "48": "images/icons/icon48.png",
+		   "64":"images/icons/icon64.png",
+		   "96": "images/icons/icon96.png",
+		   "128": "images/icons/icon128.png"
+  
+  
+}
+}
