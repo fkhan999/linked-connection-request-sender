@@ -1,4 +1,4 @@
-## Linked Connection request sender
+## Linkedin Connection request sender
 This extension will send connection request to the searched people by randomally waiting between 5-10 seconds 
 
 ### Installation
